@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_features"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_signin"
+            android:title="Sign in" />
+    </group>
+    <group android:id="@+id/group_subreddits"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_channels"
+            android:title="Channel" />
+    </group>
+</menu>

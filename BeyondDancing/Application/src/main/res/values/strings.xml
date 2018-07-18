@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="description_info">Info</string>
+    <string name="permission_request">This sample needs permission for camera and audio recording.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="start">Start</string>
+    <string name="play">play</string>
+    <string name="to_record">To record</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="action_search">Search</string>
+    <string name="server_client_id">592751149981-gbgqnd5u246810343rgmm2u1vvvlchsp.apps.googleusercontent.com</string>
+    <string name="navigation_signout">Sign out</string>
+</resources>

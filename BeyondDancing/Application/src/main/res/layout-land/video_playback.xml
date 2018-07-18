@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.BeyondDancing.PlaybackActivity">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:onClick="vidonecrl" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignBottom="@+id/videoView"
+        android:layout_marginStart="33dp"
+        android:layout_toEndOf="@+id/videoView"
+        android:onClick="vidtwocrl" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="131dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/to_record"
+        android:onClick="toRecord"
+        android:longClickable="true"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="131dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toRightOf="@+id/button1"
+        android:longClickable="true"
+        android:onClick="startboth"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="131dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_marginEnd="22dp"
+        android:longClickable="true"
+        android:onClick="playstop"
+        android:text="@string/play" />
+
+</RelativeLayout>
